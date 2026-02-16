@@ -1,0 +1,39 @@
+{
+  "name": "@devtools/devclean",
+  "version": "2.0.0",
+  "description": "A beautiful CLI tool to clean unused node_modules, cache, and optimize developer storage",
+  "main": "bin/devclean.js",
+  "bin": {
+    "devclean": "./bin/devclean.js"
+  },
+  "scripts": {
+    "start": "node bin/devclean.js",
+    "test": "node bin/devclean.js scan",
+    "link": "npm link"
+  },
+  "keywords": [
+    "cli",
+    "devtools",
+    "cleaner",
+    "node_modules",
+    "cache",
+    "storage",
+    "developer-tools"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "boxen": "^5.1.2",
+    "chalk": "^4.1.2",
+    "cli-progress": "^3.12.0",
+    "cli-table3": "^0.6.3",
+    "commander": "^9.5.0",
+    "figlet": "^1.7.0",
+    "gradient-string": "^2.0.2",
+    "inquirer": "^8.2.6",
+    "ora": "^5.4.1"
+  }
+}

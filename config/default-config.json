@@ -1,0 +1,34 @@
+{
+  "scanDepth": 3,
+  "oldProjectMonths": 3,
+  "minFileSize": 1024,
+  "excludeFolders": [
+    ".git",
+    ".idea",
+    ".vscode",
+    "Library",
+    "AppData"
+  ],
+  "targetFolders": [
+    "node_modules",
+    "dist",
+    "build",
+    ".next",
+    ".nuxt",
+    "out",
+    "coverage",
+    ".cache",
+    "tmp",
+    "temp"
+  ],
+  "autoOrganize": {
+    "enabled": false,
+    "categories": {
+      "Images": [".jpg", ".jpeg", ".png", ".gif", ".bmp", ".svg", ".webp"],
+      "Videos": [".mp4", ".avi", ".mov", ".mkv", ".flv", ".wmv"],
+      "Documents": [".pdf", ".doc", ".docx", ".txt", ".xlsx", ".pptx"],
+      "Archives": [".zip", ".rar", ".7z", ".tar", ".gz"],
+      "Code": [".js", ".ts", ".py", ".java", ".cpp", ".html", ".css"]
+    }
+  }
+}
