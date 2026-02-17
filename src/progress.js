@@ -1,7 +1,5 @@
-/**
- * Progress Bar Utilities
- */
-
+// Progress Bar Utilities
+ 
 const chalk = require('chalk');
 
 class ProgressBar {

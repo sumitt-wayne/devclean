@@ -1,6 +1,4 @@
-/**
- * Scanning Engine with Beautiful UI
- */
+//  Scanning Engine with Beautiful UI
 
 const fs = require('fs');
 const path = require('path');

@@ -1,7 +1,7 @@
 {
-  "name": "@devtools/devclean",
+  "name": "dev-storage-clean",
   "version": "2.0.0",
-  "description": "A beautiful CLI tool to clean unused node_modules, cache, and optimize developer storage",
+  "description": "A powerful CLI tool to reclaim gigabytes of storage by cleaning unused node_modules, build folders, cache, and duplicate files",
   "main": "bin/devclean.js",
   "bin": {
     "devclean": "./bin/devclean.js"
@@ -13,18 +13,38 @@
   },
   "keywords": [
     "cli",
-    "devtools",
+    "storage",
     "cleaner",
     "node_modules",
     "cache",
-    "storage",
-    "developer-tools"
+    "duplicate-finder",
+    "developer-tools",
+    "devtools",
+    "cleanup",
+    "npm",
+    "yarn",
+    "pnpm",
+    "file-organizer",
+    "disk-space",
+    "terminal",
+    "productivity"
   ],
-  "author": "Your Name",
+  "author": {
+    "name": "Sumit Wayne",
+    "url": "https://github.com/sumitt-wayne"
+  },
   "license": "MIT",
   "engines": {
     "node": ">=14.0.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sumitt-wayne/devclean.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sumitt-wayne/devclean/issues"
+  },
+  "homepage": "https://github.com/sumitt-wayne/devclean#readme",
   "dependencies": {
     "boxen": "^5.1.2",
     "chalk": "^4.1.2",
@@ -35,5 +55,12 @@
     "gradient-string": "^2.0.2",
     "inquirer": "^8.2.6",
     "ora": "^5.4.1"
-  }
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "config/",
+    "LICENSE",
+    "README.md"
+  ]
 }
